@@ -2,7 +2,6 @@ import express from 'express';
 const router = express.Router();
 export default router;
 //use index view and passing title of Home
-//res.render create a page through the template, pass object through the page titled property 
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Home' });
