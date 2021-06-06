@@ -26,13 +26,13 @@
     <label for="subject">Message</label>
     <textarea id="subject" name="message" placeholder="Write something.." style="height:200px"></textarea>
 <!--Submit Button -->
+<input type="button" value="Go Back From Whence You Came!" onclick="/home" />
     <input type="submit" value="Submit">   
-  
-
-    <a window.location.href="/home">
-    <input type="submit"/>
-    </a>
-
+    <button onclick="myFunction()">Submit</button>
+<script>
+function myFunction() {
+  window.location.pathname("/home")
+} 
   </form>
   
 </div>
