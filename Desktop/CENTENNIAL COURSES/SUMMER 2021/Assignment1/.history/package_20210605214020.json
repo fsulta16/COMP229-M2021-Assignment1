@@ -1,11 +1,11 @@
 {
-  "name": "comp229-m2021-assignment1",
-  "version": "0.0.1",
+  "name": "assignment1",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node index.js"
   },
-  "engines": {
+  "engine":{
     "node": "^12.00.0",
     "npm": "^6.0.0"
   },
@@ -31,13 +31,5 @@
     "@types/jquery": "^3.5.5",
     "@types/morgan": "^1.9.2",
     "@types/node": "^15.12.1"
-  },
-  "description": "Assignment project for COMP229 - Week 4",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "(https://github.com/fsulta16/COMP229-M2021-Assignment1.git)"
-  },
-  "author": "Farishta Sultani",
-  "license": "ISC"
+  }
 }
